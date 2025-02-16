@@ -1,0 +1,266 @@
+#contenedor {
+    width: auto;
+    min-height: 100vh;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+#header {
+    position: relative;
+    display: flex;
+    width: 1324px;
+    padding-top: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+
+.logoweb {
+    color: #0099CC;
+    fill: #0099CC;
+    background: #FFF;
+    position: absolute;
+    left: 29%; /* Ajusta la posición horizontal del logo */
+    top: 45%; /* Centra verticalmente el logo */
+    transform: translateY(-58%); /* Ajusta para centrar perfectamente */
+    width: 44px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+}
+
+
+h1{
+    color: #09C;
+    text-align: center;
+    font-family: "Leckerli One", serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    align-self: stretch;
+    margin-top: 0px; 
+    margin-bottom: 0px;   
+}
+
+h2{
+    color: #09C;
+    font-family: "Leckerli One", serif;
+    font-weight: 400;
+    margin-top: 0px;
+    border-top: 0px; 
+    
+}
+
+h2 {
+    color:  #BCAC0B;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.inter_unifiquier {
+    font-family: "Inter", sans-serif;
+    color: #000;
+    font-size: 24px;
+    line-height: 24px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.inter_unifiquier.active {
+    color: #0099CC;
+}
+
+
+#slider{
+    width: 1324px;
+    height: 423px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+    overflow:hidden;
+
+}
+
+.imageslider {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+#cuerpo {
+    width: 1324px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 20px;
+    position: relative;
+    
+}
+
+.texto_cuerpo {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+}
+ul{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#footer{
+    display: flex;
+    width: 1324px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.copyright{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icono_copyright{
+    width: 18px;
+    transform: translateY(160%);
+
+}
+.textofooter{
+    padding-left: 25px;
+}
+.linkedin{
+    color: #0099CC;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.linkedin:hover{
+    color: #BCAC0B;
+}
+.iconos_footer{
+    height: 20px;
+    width: 108px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.whats_icon:hover path{
+    fill: #BCAC0B;
+}
+.insta_icon:hover path{
+    fill: #BCAC0B;
+}
+.face_icon:hover path{
+    fill: #BCAC0B;
+}
+
+#slider:hover .imageslider {
+    transform: scale(1.5); 
+    transform-origin: center; 
+}
+
+#cuerpo.carta{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+
+#cuerpo.carta .cartalista1, #cuerpo.carta .cartalista2, #cuerpo.carta .cartalista3, #cuerpo.carta .cartalista4{
+    flex: 12;
+    margin: 30;
+}
+
+#formulario {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:400px;
+    position: relative;
+    left: 30%;
+    box-sizing: border-box;
+}
+#formulario input[type="text"],
+#formulario input[type="tel"],
+#formulario input[type="email"] {
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+
+
+
+.boton_formulario{
+    color: #dddddd;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0099CC;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00a1d6;
+}
+
+
+.datos_contacto{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding-left: 450px;
+    padding-top: 50px;
+}
+
+.logo_galicia{
+    width: 20px;
+    transform: translateY(20%);
+}
